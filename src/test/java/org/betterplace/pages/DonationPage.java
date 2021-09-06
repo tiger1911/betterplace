@@ -32,7 +32,7 @@ public class DonationPage {
     @FindBy(css = "[id='show_amount']")
     public WebElement betragAnzeigenRadioButton;
 
-    @FindBy(xpath = "//input[@class='__PrivateStripeElement-input']")
+    @FindBy(xpath = "//input[@class='InputElement is-empty Input Input--empty']")
     public WebElement inputBoxIBAN;
 
     @FindBy(xpath = "//button[@class='btn btn-large btn-primary submit-donation-button']")
